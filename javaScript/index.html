@@ -41,7 +41,7 @@
         console.log(result.toUpperCase(cadena1));
     </script>-->
 
-    <!-- Este script encuentra el ultimo caracter de una cadena--> 
+    <!-- Este script encuentra el ultimo caracter de una cadena
     <script>
         function lastLetter(cadena1){
             return cadena1.charAt(cadena1.length -1)
@@ -49,7 +49,23 @@
         let cadena1 = "abcdef";
         let result = lastLetter(cadena1);
         console.log(result);
-    </script>
+    </script>--> 
 
+
+    <script>
+        const answer = parseInt(prompt("Ingresa un numero del 1 al 10 :"))
+        for (let i = 1; i <= answer; i++){
+            if(i % 3 === 0 && i % 5 === 0){
+                console.log("FizzBuzz");
+            }else if (i % 3 === 0 ) {
+                console.log("Fizz");
+            }else if (i % 5 === 0){
+                console.log("Buzz");
+            }else{
+                console.log(i);
+            }
+        }
+        
+    </script>
 </body>
 </html>
